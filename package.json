@@ -22,7 +22,14 @@
     "react-dancing-lines": "^1.1.4",
     "react-dom": "^18.2.0",
     "react-type-animation": "^3.2.0",
-    "ts-pattern": "^5.0.4"
+    "ts-pattern": "^5.0.4",
+    "@chakra-ui/icons": "^1.0.14",
+    "@chakra-ui/react": "^1.6.5",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^4",
+    "react-icons": "^4.2.0",
+    "react-intersection-observer": "^8.32.0"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.4.12",
