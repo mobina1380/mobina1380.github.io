@@ -20,7 +20,7 @@ const FeaturedWorksSection = () => {
         }}>
         Some of my works.
       </Heading>
-      <Text variant="description" color={'#FFFF'}>
+      <Text variant="description" color="#FFFF">
         Check out some of the works I made at freelancing, company projects and even case studies.
       </Text>
 

@@ -46,7 +46,7 @@ const GetInTouch = () => {
           </motion.div>
         </Text>
       </Heading>
-      <Text variant="description" color={'#FFFF'}>
+      <Text variant="description" color="#FFFF">
         Though, I am fairly introverted myself. I do reply to messages as long as my human interaction battery lasts.
         Coding, work, movies or even weeb stuff, anything is cool. So feel free to message me on any of my social media
         or shoot me an{' '}

@@ -62,7 +62,7 @@ const Sidebar = () => {
             paddingRight={{lg: '12'}}
             variant="description"
             variants={fadeInUp}
-            color={'#FFFF'}
+            color="#FFFF"
             
             >
             
@@ -91,7 +91,7 @@ const Sidebar = () => {
             Get in touch!
           </MotionButton> */}
 
-          <MotionBox d="flex" variants={simpleOpacity} color={'#FFFF'}>
+          <MotionBox d="flex" variants={simpleOpacity} color="#FFFF">
 
             {SocialMedias.map(socMedia => (
               <Link

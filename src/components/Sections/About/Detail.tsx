@@ -48,7 +48,7 @@ const Detail = ({onOpen}: ISkillSetModal) => {
         }}>
         What i do.
       </Heading>
-      <Text variant="description" color={'#FFFF'}>
+      <Text variant="description" color="#FFFF">
         I have been programming professionally for 4 years now, and I am currently working as a <b>data scientist</b>,
         mastering <b>algorithms</b>, <b>machine learning</b>, and <b>deep learning</b>. I also have experience in the
         field of{' '}

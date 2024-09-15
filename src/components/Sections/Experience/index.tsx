@@ -11,7 +11,7 @@ const DetailSection = () => (
       }}>
       Places i’ve worked.
     </Heading>
-    <Text variant="description" color={'#FFFF'}>
+    <Text variant="description" color="#FFFF">
       For several years, I have worked in different places, I have experienced face-to-face, remote, hybrid, and
       freelance work.
     </Text>

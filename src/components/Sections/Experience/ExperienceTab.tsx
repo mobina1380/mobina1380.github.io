@@ -88,7 +88,7 @@ const ExperienceTab = () => {
           <TabPanel key={`TabPanel-${company.name}`}>
             <SlideFade in={true} offsetY="20px">
               <Stack spacing={0}>
-                <Text as="span" fontSize="lg" fontWeight="bold" variant="description" color={'#FFFF'}>
+                <Text as="span" fontSize="lg" fontWeight="bold" variant="description" color="#FFFF">
                   {company.position}
                 </Text>
                 <Text as="span">
@@ -117,7 +117,7 @@ const ExperienceTab = () => {
                     justifyContent="flex-start"
                     key={`${company.name}-desc-${idx}`}>
                     <ListIcon as={BiRightArrow} color={emphasis} display="block" />
-                    <Text as="span" display="block" variant="description" color={'#FFFF'}>
+                    <Text as="span" display="block" variant="description" color="#FFFF">
                       {roleDesc}
                     </Text>
                   </ListItem>
