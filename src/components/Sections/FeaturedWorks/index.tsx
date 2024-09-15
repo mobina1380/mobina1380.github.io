@@ -8,6 +8,7 @@ import FeaturedCard from './FeaturedCard';
 const MotionGrid = motion(Grid);
 const MotionGridItem = motion(GridItem);
 
+
 const FeaturedWorksSection = () => {
   const isMobile = useBreakpointValue(mobileBreakpointsMap);
   return (
@@ -19,7 +20,7 @@ const FeaturedWorksSection = () => {
         }}>
         Some of my works.
       </Heading>
-      <Text variant="description">
+      <Text variant="description" color={'#FFFF'}>
         Check out some of the works I made at freelancing, company projects and even case studies.
       </Text>
 

@@ -74,7 +74,8 @@ const ProjectDescription = ({
     display="flex"
     flexDirection="column"
     justifyContent="space-around"
-    paddingX={5}
+    width={'100%'}
+    maxWidth={'100%'}
     paddingY={1}>
     <Stack spacing={1} width="100%">
       <Text

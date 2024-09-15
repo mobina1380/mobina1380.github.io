@@ -98,7 +98,7 @@ const ScrollMore = () => {
               }}
               alignItems="center"
               as="a"
-              color={emailColor}
+              color={'#FFFF'}
               display="flex"
               fontFamily="monospace"
               href="esmaeilimobina98@gmail.com"

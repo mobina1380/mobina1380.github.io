@@ -20,6 +20,7 @@ import useScrollDirection, {ScrollDirection} from '../../hooks/useScrollDirectio
 import styles from './styles.module.css';
 import MobileMenu from './toggle';
 
+
 const Navigation = () => {
   const {toggleColorMode, colorMode} = useColorMode();
   const MotionContainer = motion(Container);
@@ -57,21 +58,21 @@ const Navigation = () => {
         paddingTop={1}
         top="3%"
         zIndex={100}>
-        <IconButton
+        {/* <IconButton
           aria-label="Color Mode"
           boxShadow="none"
           icon={<Icon />}
           onClick={toggleColorMode}
           padding={0}
           variant="ghost"
-        />
+        /> */}
         <MobileMenu isDarkMode={IsDark} isOpen={isOpen} toggle={toggleOpen} />
       </Box>
 
       <MotionContainer
         animate={(!isMobile || isOpen) && 'show'}
         as="nav"
-        backgroundColor={bg}
+        // backgroundColor={bg}
         borderBottomWidth={isOpen && isMobile && '1px'}
         borderColor={isOpen && isMobile && borderColor}
         className={styles.menu}
@@ -171,7 +172,7 @@ const Navigation = () => {
               Contact
             </Button>
           </Box>
-          {!isMobile && (
+          {/* {!isMobile && (
             <Box>
               <IconButton
                 aria-label="Color Mode"
@@ -182,7 +183,7 @@ const Navigation = () => {
                 variant="ghost"
               />
             </Box>
-          )}
+          )} */}
         </Flex>
       </MotionContainer>
     </>

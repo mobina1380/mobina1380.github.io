@@ -51,6 +51,7 @@ const ExperienceTab = () => {
   });
   return (
     <Tabs id="experienceTabs" isLazy orientation={tabOrientation}>
+      
       <TabList
         borderColor="transparent"
         className={styles.experienceTabs}
@@ -87,7 +88,7 @@ const ExperienceTab = () => {
           <TabPanel key={`TabPanel-${company.name}`}>
             <SlideFade in={true} offsetY="20px">
               <Stack spacing={0}>
-                <Text as="span" fontSize="lg" fontWeight="bold" variant="description">
+                <Text as="span" fontSize="lg" fontWeight="bold" variant="description" color={'#FFFF'}>
                   {company.position}
                 </Text>
                 <Text as="span">
@@ -98,7 +99,7 @@ const ExperienceTab = () => {
                     href={company.url}
                     rel="noreferrer"
                     target="_blank">
-                    #{company.name}
+                    {company.name}
                   </Link>
                   <Text as="span" fontSize="x-small" textTransform="none" variant="description">
                     {' '}
@@ -116,7 +117,7 @@ const ExperienceTab = () => {
                     justifyContent="flex-start"
                     key={`${company.name}-desc-${idx}`}>
                     <ListIcon as={BiRightArrow} color={emphasis} display="block" />
-                    <Text as="span" display="block" variant="description">
+                    <Text as="span" display="block" variant="description" color={'#FFFF'}>
                       {roleDesc}
                     </Text>
                   </ListItem>

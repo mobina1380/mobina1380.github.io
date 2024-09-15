@@ -61,7 +61,11 @@ const Sidebar = () => {
             maxWidth={{base: '100%', lg: '80%'}}
             paddingRight={{lg: '12'}}
             variant="description"
-            variants={fadeInUp}>
+            variants={fadeInUp}
+            color={'#FFFF'}
+            
+            >
+            
             Hey! How nice of you to look at my personal site,
             <Text as="span" variant="emphasis">
               {' '}
@@ -87,9 +91,11 @@ const Sidebar = () => {
             Get in touch!
           </MotionButton> */}
 
-          <MotionBox d="flex" variants={simpleOpacity}>
+          <MotionBox d="flex" variants={simpleOpacity} color={'#FFFF'}>
+
             {SocialMedias.map(socMedia => (
               <Link
+                style={{color:'#FFFF',padding:'3px'}}
                 _focus={{boxShadow: 'none'}}
                 aria-label={socMedia.label}
                 href={socMedia.href}
