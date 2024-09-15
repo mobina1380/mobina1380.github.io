@@ -13,7 +13,8 @@
 // });
 
 // export default MyApp;
-import '../../public/globals.css'
+import '../../public/globals.css';
+
 import {ChakraProvider} from '@chakra-ui/react';
 import {AnimatePresence} from 'framer-motion';
 import type {AppProps} from 'next/app';
