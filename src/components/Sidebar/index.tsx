@@ -26,6 +26,7 @@ const Sidebar = () => {
   const MotionButton = motion(Button);
   const MotionBox = motion(Box);
 
+
   return (
     <MotionBox animate="animate" initial="initial" maxWidth={{xl: '34%'}} position={{xl: 'fixed'}} top={{lg: 0}}>
       <motion.div
@@ -35,7 +36,7 @@ const Sidebar = () => {
         style={{display: display}}
         variants={scaleUp}></motion.div>
       <Container alignItems={{xl: 'center'}} display={{xl: 'flex'}} height={{xl: '100vh'}} margin={0} padding={0}>
-        <MotionStack spacing={6} variants={stagger} w="100">
+        <MotionStack spacing={6} variants={stagger} w="100"  style={{width:'100%'}}>
           <MotionHeading as="h1" paddingRight={{lg: '20'}} size="2xl" textTransform="uppercase" variants={fadeInUp}>
             Mobina
           </MotionHeading>

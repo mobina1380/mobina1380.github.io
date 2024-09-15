@@ -98,7 +98,7 @@ const Portfolio = (): JSX.Element => {
           overflow="hidden"
           padding={mainContent}
           rowSpan={2}>
-          <Stack spacing={24} w="100">
+          <Stack spacing={24} w="100" style={{width:'100%'}} >
             <FadeInLayout>
               <Box
                 alignItems="center"
