@@ -47,11 +47,10 @@ const GetInTouch = () => {
         </Text>
       </Heading>
       <Text variant="description" color="#FFFF">
-        Though, I am fairly introverted myself. I do reply to messages as long as my human interaction battery lasts.
-        Coding, work, movies or even weeb stuff, anything is cool. So feel free to message me on any of my social media
-        or shoot me an{' '}
-        <Link href="esmaeilimobina98@gmail.com" rel="noreferrer" target="_blank">
-          email
+       
+        I would be happy if you work in the field of artificial intelligence, let's communicate and use knowledge. Also, I welcome your interesting projects, and if you have any questions, you can contact me via  
+          <Link href="esmaeilimobina98@gmail.com" rel="noreferrer" target="_blank">
+           email
         </Link>
         .
       </Text>

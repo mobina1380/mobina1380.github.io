@@ -167,14 +167,14 @@ const Portfolio = (): JSX.Element => {
   );
 };
 
-export async function getStaticProps() {
-  const res = await fetch('https://dev.to/api/articles?username=klawingco');
-  const articles = await res.json();
-  return {
-    props: {
-      articles,
-    },
-  };
-}
+// export async function getStaticProps() {
+//   const res = await fetch('https://dev.to/api/articles?username=klawingco');
+//   const articles = await res.json();
+//   return {
+//     props: {
+//       articles,
+//     },
+//   };
+// }
 
 export default Portfolio;

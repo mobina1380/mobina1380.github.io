@@ -26,7 +26,13 @@ import {
   SiReact,
   SiTensorflow,
   SiTypescript,
+  SiNumpy,
+  SiApacheairflow,
+  
+  
 } from 'react-icons/si';
+
+
 
 type ISkillSetModal = {
   onOpen(): void;
@@ -77,23 +83,25 @@ const Detail = ({onOpen}: ISkillSetModal) => {
           </ListItem>
 
           <ListItem alignItems="center" display="flex" fontSize="small">
-            <ListIcon as={SiMysql} color={emphasis} fontSize="2em" />
-            Mysql
+          <ListIcon as={SiNumpy} color={emphasis} fontSize="2em" />
+          Numpy
           </ListItem>
         </List>
         <List spacing={3}>
           <ListItem alignItems="center" display="flex" fontSize="small">
-            <ListIcon as={SiJavascript} color={emphasis} fontSize="2em" />
-            Javascript (ES6+)
+            
+            <ListIcon as={SiMysql} color={emphasis} fontSize="2em" />
+            Mysql
           </ListItem>
+          
 
           <ListItem alignItems="center" display="flex" fontSize="small">
-            <ListIcon as={SiReact} color={emphasis} fontSize="2em" />
-            React
+            <ListIcon as={SiApacheairflow} color={emphasis} fontSize="2em" />
+            Apacheairflow
           </ListItem>
           <ListItem alignItems="center" display="flex" fontSize="small">
-            <ListIcon as={SiNextDotJs} color={emphasis} fontSize="2em" />
-            NextJS
+            <ListIcon as={SiTypescript} color={emphasis} fontSize="2em" />
+            Typescript
           </ListItem>
           <ListItem alignItems="center" display="flex" fontSize="small">
             <ListIcon as={SiDocker} color={emphasis} fontSize="2em" />

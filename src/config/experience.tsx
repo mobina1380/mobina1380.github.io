@@ -21,136 +21,83 @@ export type CompanyDetail = {
 export const Experiences: {
   [key in Company]: CompanyDetail;
 } = {
+  Alzahra: {
+    name: 'Alzahra Laboratory',
+   // longName: 'Scentregroup Limited AU',
+   // subDetail: 'via Prosource BPO',
+   // url: 'https://www.scentregroup.com/',
+   position: 'Data Scientist | AI Engineer',
+   duration: 'June, 2024- September, 2024',
+   logo: {
+     light: '/worked_at_logos/logoa.png',
+     dark: '/worked_at_logos/logoa.png',
+   },
+   roles: [
+     <>
+       •	Research and Study in the Field of Speech Emotion Recognition
+     </>,
+     <>•	Improving the Whisper Model for Fine-Tuning on an Internal Dataset</>,
+     <>
+       •	Speaker Recognition in Speech.
+     </>,
+     <>
+     •	Speech-to-Text and Text-to-Speech Conversion
+     </>,
+     
+   ],
+ },
   Deloitte: {
-    // name: 'Deloitte',
+    name: ' HamrahAvval (MCINEXT) ',
     // longName: 'Deloitte Consulthing Phils. Delivery Center',
     // subDetail: 'Consulthing Phils. Delivery Center',
     url: 'https://www2.deloitte.com/',
-    position: 'Software Engineer Consultant',
-    duration: 'Sep 2021 - Present',
+    position: 'Software Engineer',
+    duration: 'April, 2023 - May, 2024',
     logo: {
       light: '/worked_at_logos/logoh.png',
       dark: '/worked_at_logos/logoh.png',
     },
     roles: [
       <>
-        Contributed to the design and development of a comprehensive .NET payment integration project for a client That
-        covered credit card payments and subscription management. Introduced Stripe as a new payment provider within the
-        system architecture. Participated in triaging, fixing and adding new functionalitiesto multiple Azure powered
-        APIs of the same client.
+        •	Improved speech processing in the search engine.(Voice assistant)
       </>,
       <>
-        Worked as a Sitecore Backend on new{' '}
-        <Link
-          aria-label="Deloitte Digital AU"
-          href="https://www.deloittedigital.com.au/"
-          rel="noreferrer"
-          target="_blank">
-          Deloitte Digital AU Site.
-        </Link>
+        •	Working with audio-to-text and text-to-audio conversion tools
+    
       </>,
       <>
-        Udergone training for .NET Sitecore 10, Sitecore SXA and different topologies it provides. and Passed{' '}
-        <Link
-          aria-label="Sitecore 10 .NET Developer Certification"
-          href="/certification/Lawingco-Sitecore 10 NET Developer Cert.pdf"
-          rel="noreferrer"
-          target="_blank">
-          Sitecore 10 .NET Developer Certification.
-        </Link>
+        •	Implemented Restful Api and ensured seamless integration with back-end services
+     
       </>,
+      <>
+      •	Redesigned the architecture of the search engine, transitioning from a client-side to a server-side model, significantly improving performance, scalability, and reducing latency for end users during high-traffic conditions.
+      </>,
+      <>•	Worked in an Agile Scrum environment, contributing to sprint planning and daily stand-ups.</>
     ],
   },
   SCG: {
-    name: 'Scentregroup',
-    longName: 'Scentregroup Limited AU',
-    subDetail: 'via Prosource BPO',
-    url: 'https://www.scentregroup.com/',
-    position: 'Software Engineer',
-    duration: 'Feb 2020 - Sep 2021',
+     name: 'National Elite Foundation ',
+    // longName: 'Scentregroup Limited AU',
+    // subDetail: 'via Prosource BPO',
+    // url: 'https://www.scentregroup.com/',
+    position: 'Data Scientist | AI Engineer',
+    duration: 'September, 2021 - July, 2022',
     logo: {
       light: '/worked_at_logos/logob.png',
       dark: '/worked_at_logos/logob.png',
     },
     roles: [
       <>
-        Revamping the legacy Partner Portal into a new{' '}
-        <Link
-          aria-label="Westfield Marketing Hub"
-          href="https://partner.scentregroup.com/"
-          rel="noreferrer"
-          target="_blank">
-          Westfield Marketing Hub
-        </Link>{' '}
-        using NextJS and Typescript. Restructuring the old express app into a newer architectural design approach.
+       •	Spell Correction
       </>,
-      <>Created multiple Contentful and Bynder extensions to improve BX process better.</>,
+      <>•	Summarization</>,
       <>
-        Worked on maintaining{' '}
-        <Link href="https://www.westfield.com.au/" rel="noreferrer" target="_blank" variant="primaryLink">
-          Westfield
-        </Link>{' '}
-        main site and Graphql apis written in NodeJS.
+       •	Backend Developer
       </>,
-      <>
-        Migrating of existing marketing email related tools and batch jobs from Responsys into new platform called
-        Braze.
-      </>,
-      <>
-        Hired at early 2020, first major task was helping with selecting a new marketing vendor that can scale and also
-        enable us to have personalisation as well, selecting{' '}
-        <Link aria-label="Braze" href="https://www.braze.com/" rel="noreferrer" target="_blank">
-          Braze
-        </Link>{' '}
-        as a result.
-      </>,
+     
     ],
   },
-  Alzahra: {
-    name: 'Scentregroup',
-    longName: 'Scentregroup Limited AU',
-    subDetail: 'via Prosource BPO',
-    url: 'https://www.scentregroup.com/',
-    position: 'Software Engineer',
-    duration: 'Feb 2020 - Sep 2021',
-    logo: {
-      light: '/worked_at_logos/logoa.png',
-      dark: '/worked_at_logos/logoa.png',
-    },
-    roles: [
-      <>
-        Revamping the legacy Partner Portal into a new{' '}
-        <Link
-          aria-label="Westfield Marketing Hub"
-          href="https://partner.scentregroup.com/"
-          rel="noreferrer"
-          target="_blank">
-          Westfield Marketing Hub
-        </Link>{' '}
-        using NextJS and Typescript. Restructuring the old express app into a newer architectural design approach.
-      </>,
-      <>Created multiple Contentful and Bynder extensions to improve BX process better.</>,
-      <>
-        Worked on maintaining{' '}
-        <Link href="https://www.westfield.com.au/" rel="noreferrer" target="_blank" variant="primaryLink">
-          Westfield
-        </Link>{' '}
-        main site and Graphql apis written in NodeJS.
-      </>,
-      <>
-        Migrating of existing marketing email related tools and batch jobs from Responsys into new platform called
-        Braze.
-      </>,
-      <>
-        Hired at early 2020, first major task was helping with selecting a new marketing vendor that can scale and also
-        enable us to have personalisation as well, selecting{' '}
-        <Link aria-label="Braze" href="https://www.braze.com/" rel="noreferrer" target="_blank">
-          Braze
-        </Link>{' '}
-        as a result.
-      </>,
-    ],
-  },
+ 
 };
 
-export const ExperiencesList = [Experiences.Deloitte, Experiences.SCG,Experiences.Alzahra];
+export const ExperiencesList = [Experiences.Alzahra,Experiences.Deloitte, Experiences.SCG];
