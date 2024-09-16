@@ -53,7 +53,7 @@ const Sidebar = () => {
           </MotionHeading>
 
           <MotionHeading as="h3" className={styles.marginTopSmall} size="md" variant="emphasis" variants={fadeInUp}>
-            Data Scientist | Software Engineer
+            Data Scientist|AI Engineer|Software Engineer
           </MotionHeading>
 
           <MotionText
