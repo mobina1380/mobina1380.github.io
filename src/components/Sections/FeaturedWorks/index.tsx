@@ -50,7 +50,7 @@ const FeaturedWorksSection = () => {
             idx={2}
             isMobile={isMobile}
             src="/works/tmh.webp"
-            title="Speech  Recognition"
+            title="Automatic Speech Recognition"
           />
         </MotionGridItem>
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
