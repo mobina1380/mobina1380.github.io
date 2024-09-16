@@ -59,7 +59,7 @@ const MobileMenu = ({isOpen, toggle, isDarkMode = false}: {isOpen: boolean; isDa
       display: 'flex',
       alignItems: 'center',
     }}>
-    {/* <motion.div className="background" variants={sidebar} /> */}
+   
     <MenuToggle isDarkMode={isDarkMode} toggle={() => toggle()} />
   </motion.nav>
 );

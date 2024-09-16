@@ -19,6 +19,7 @@ import {mobileBreakpointsMap, ThemeMode} from '../../config/theme';
 import useScrollDirection, {ScrollDirection} from '../../hooks/useScrollDirection';
 import styles from './styles.module.css';
 import MobileMenu from './toggle';
+import {Stack} from '@chakra-ui/react';
 
 
 const Navigation = () => {
@@ -98,6 +99,7 @@ const Navigation = () => {
             base: 'column',
             lg: scrollDirection === ScrollDirection.Down ? 'column' : 'row',
           }}
+        
           height={{base: '100vh', lg: 'auto'}}
           justifyContent={{base: 'center', lg: 'flex-end'}}
           onClick={() => isMobile && toggleOpen()}
@@ -108,7 +110,16 @@ const Navigation = () => {
             base: '10',
             lg: scrollDirection === ScrollDirection.Down ? '10' : '3',
           }}>
-          <Box textAlign={{base: 'center', lg: 'left'}} width={{base: '100%', lg: 'auto'}}>
+      
+
+
+         {isMobile ? <>
+         
+         
+          <Stack marginTop={'5%'} height={'100vh'} display={'flex'} flexDir={'column'} alignItems={'center'} justifyContent={'center'} bgColor={'black'}>
+
+
+          <Box bgColor={'black'} textAlign={{base: 'center', lg: 'left'}} width={{base: '100%', lg: 'auto'}}>
             <Button
               as="a"
               className={btnClassName}
@@ -116,15 +127,15 @@ const Navigation = () => {
               fontWeight="light"
               href={isMobile ? '#aboutMe' : '#'}
               letterSpacing={2}
-              marginX={2}
+              
               onClick={onMenuItemClick}
-              padding={2}
+              
               rel="noreferrer"
               variant="ghost">
               About
             </Button>
           </Box>
-          <Box marginY={{base: 2, lg: 0}} textAlign={{base: 'center', lg: 'left'}} width={{base: '100%', lg: 'auto'}}>
+          <Box bgColor={'black'} marginY={{base: 2, lg: 0}} textAlign={{base: 'center', lg: 'left'}} width={{base: '100%', lg: 'auto'}}>
             <Button
               as="a"
               className={btnClassName}
@@ -132,15 +143,15 @@ const Navigation = () => {
               fontWeight="light"
               href="#jobs"
               letterSpacing={2}
-              marginX={2}
+              
               onClick={onMenuItemClick}
-              padding={2}
+              
               rel="noreferrer"
               variant="ghost">
               Experience
             </Button>
           </Box>
-          <Box marginY={{base: 2, lg: 0}} textAlign={{base: 'center', lg: 'left'}} width={{base: '100%', lg: 'auto'}}>
+          <Box bgColor={'black'} marginY={{base: 2, lg: 0}} textAlign={{base: 'center', lg: 'left'}} width={{base: '100%', lg: 'auto'}}>
             <Button
               as="a"
               className={btnClassName}
@@ -156,7 +167,7 @@ const Navigation = () => {
               Works
             </Button>
           </Box>
-          <Box marginY={{base: 2, lg: 0}} textAlign={{base: 'center', lg: 'left'}} width={{base: '100%', lg: 'auto'}}>
+          <Box bgColor={'black'} marginY={{base: 2, lg: 0}} textAlign={{base: 'center', lg: 'left'}} width={{base: '100%', lg: 'auto'}}>
             <Button
               as="a"
               className={btnClassName}
@@ -172,6 +183,74 @@ const Navigation = () => {
               Contact
             </Button>
           </Box>
+          </Stack>
+         </> : <>
+         <Box bgColor={'black'} textAlign={{base: 'center', lg: 'left'}} width={{base: '100%', lg: 'auto'}}>
+            <Button
+              as="a"
+              className={btnClassName}
+              fontSize={menuButtonSize}
+              fontWeight="light"
+              href={isMobile ? '#aboutMe' : '#'}
+              letterSpacing={2}
+             
+              onClick={onMenuItemClick}
+             
+              rel="noreferrer"
+              variant="ghost">
+              About
+            </Button>
+          </Box>
+          <Box bgColor={'black'} marginY={{base: 2, lg: 0}} textAlign={{base: 'center', lg: 'left'}} width={{base: '100%', lg: 'auto'}}>
+            <Button
+              as="a"
+              className={btnClassName}
+              fontSize={menuButtonSize}
+              fontWeight="light"
+              href="#jobs"
+              letterSpacing={2}
+             
+              onClick={onMenuItemClick}
+              
+              rel="noreferrer"
+              variant="ghost">
+              Experience
+            </Button>
+          </Box>
+          <Box bgColor={'black'} marginY={{base: 2, lg: 0}} textAlign={{base: 'center', lg: 'left'}} width={{base: '100%', lg: 'auto'}}>
+            <Button
+              as="a"
+              className={btnClassName}
+              fontSize={menuButtonSize}
+              fontWeight="light"
+              href="#works"
+              letterSpacing={2}
+              marginX={2}
+              onClick={onMenuItemClick}
+              padding={2}
+              rel="noreferrer"
+              variant="ghost">
+              Works
+            </Button>
+          </Box>
+          <Box bgColor={'black'} marginY={{base: 2, lg: 0}} textAlign={{base: 'center', lg: 'left'}} width={{base: '100%', lg: 'auto'}}>
+            <Button
+              as="a"
+              className={btnClassName}
+              fontSize={menuButtonSize}
+              fontWeight="light"
+              href="#contact"
+              letterSpacing={2}
+              marginX={2}
+              onClick={onMenuItemClick}
+              padding={2}
+              rel="noreferrer"
+              variant="ghost">
+              Contact
+            </Button>
+          </Box>
+       
+         </> }
           {/* {!isMobile && (
             <Box>
               <IconButton

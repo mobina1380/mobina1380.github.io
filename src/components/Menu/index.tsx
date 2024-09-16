@@ -46,7 +46,9 @@ const Menu = () => {
       animate={controls}
       className={isMobile ? styles.mobileMenuContainer : ''}
       initial={isMobile ? 'hidden' : false}
-      variants={mobileMenuVariants}>
+      variants={mobileMenuVariants}
+     
+      >
       <Container
         alignItems="center"
         backgroundColor={isMobile ? bg : 'transparent'}

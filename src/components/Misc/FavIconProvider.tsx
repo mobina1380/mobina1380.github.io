@@ -6,7 +6,7 @@ const FavIconProvider = ({children}: {children: JSX.Element}) => {
   return (
     <>
       <Head>
-        <link href={colorMode === 'dark' ? '/favicon.ico' : '/favicon-lightmode.ico'} rel="icon" />
+        <link href={colorMode === 'dark' ? '/logo_light.png' : '/logo_light.png'} rel="icon" />
         <meta charSet="utf-8" />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>

@@ -15,11 +15,12 @@ export const SocialMedias: SocialMedia[] = [
     href: 'https://www.instagram.com/mobina__esmaeili80/',
     icon: FaInstagram,
   },
-  {
-    label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/mobina-esmaeili-28b7aa233/',
-    icon: FaLinkedin,
-  },
+  // {
+  //   label: 'LinkedIn',
+  //   // href: 'https://www.linkedin.com/in/mobina-esmaeili-28b7aa233/',
+  //   href: '#',
+  //   icon: FaLinkedin,
+  // },
   {
     label: 'StackOverflow',
     href: 'https://stackoverflow.com/users/16718015/mobina-esmaeili',

@@ -36,7 +36,7 @@ const Logo = () => {
           <MotionImage
             alt="KL Lawingco Logo"
             animate={isLogoLoaded && 'animate'}
-            boxSize={isMobile ? '50px' : '200px'}
+            boxSize={isMobile ? '30px' : '50px'}
             className={!isMobile ? styles.logo : ''}
             fallbackSrc="./logo_light.png"
             initial="initial"
@@ -45,7 +45,7 @@ const Logo = () => {
             src="./logo_light.png"
             variants={simpleOpacity}
             zIndex={2}
-            style={{top:'0%'}}
+            
           />
         )}
       </Link>
