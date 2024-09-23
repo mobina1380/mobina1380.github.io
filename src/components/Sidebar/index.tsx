@@ -65,9 +65,12 @@ const Sidebar = () => {
             color="#FFFF"
             
             >
+              
+
+
             
             Hey! How nice of you to look at my personal site,
-            <Text as="span" variant="emphasis">
+            <Text as="span" variant={fadeInUp}>
               {' '}
               Thank you!
             </Text>
